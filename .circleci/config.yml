@@ -12,8 +12,8 @@ jobs:
           name: Print the Current Date and Time
           command: date -d 'today' "+%d-%m-%Y" 
       - run:
-          name: Print the Current Date and Time
-          command: date -d 'today' "+%d-%m-%Y"
+          name: print number 1 to 100
+          command: seq 1 100
       - run:
           bash ./test.sh
       - run:
