@@ -12,6 +12,9 @@ jobs:
           name: Print the Current Date and Time
           command: date -d 'today' "+%d-%m-%Y" 
       - run:
+          name: Print the Current Date and Time
+          command: date -d 'today' "+%d-%m-%Y"
+      - run:
           bash ./test.sh
       - run:
           command: echo "This is for testing"
